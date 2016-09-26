@@ -63,6 +63,12 @@ if (function_exists('add_theme_support'))
 /*------------------------------------*\
     Functions
 \*------------------------------------*/
+// increase the number of custom fields
+add_filter( 'postmeta_form_limit' , 'customfield_limit_increase' );
+function customfield_limit_increase( $limit ) {
+    $limit = 80;
+    return $limit;
+}
 
 
 // Check if single post has a logo path
