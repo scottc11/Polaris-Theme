@@ -7,21 +7,10 @@ Template Name: Products Page
 <?php get_header(); ?>
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/products.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
 
 
   <main id="" class="container">
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-9 col-sm-offset-3">
-        <div class="underlined-header-container">
-          <h1>All Products</h1>
-          <hr class="underline-hr">
-        </div>
-      </div>
-    </div>
-
-
-
 
     <div class="row">
 
@@ -37,7 +26,16 @@ Template Name: Products Page
       <!--          PRODUCTS               -->
       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-      <section class="container col-xs-12 col-sm-9">
+      <section class="container col-xs-12 col-sm-8 col-md-9">
+
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="underlined-header-container">
+              <h1>All Products</h1>
+              <hr class="underline-hr">
+            </div>
+          </div>
+        </div>
 
         <div class="row">
 

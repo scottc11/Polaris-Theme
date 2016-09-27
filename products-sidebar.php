@@ -1,4 +1,4 @@
-<aside class="sidebar-container col-xs-12 col-sm-3">
+<aside class="sidebar-container col-xs-12 col-sm-4 col-md-3">
 
   <div id="products-sidebar">
 
@@ -16,7 +16,7 @@
 
       $parent_ids = array(); // array to hold ID's
 
-      // building and array full of all the parent category ID's
+      // building an array full of all the parent category ID's
       foreach ($parent_categories as $category) {
         $parent_ids[$category->slug] = $category->term_id;
       }

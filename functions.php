@@ -63,12 +63,34 @@ if (function_exists('add_theme_support'))
 /*------------------------------------*\
     Functions
 \*------------------------------------*/
+
+
 // increase the number of custom fields
 add_filter( 'postmeta_form_limit' , 'customfield_limit_increase' );
 function customfield_limit_increase( $limit ) {
     $limit = 80;
     return $limit;
 }
+
+
+function PSI_get_cat_link($queried_object) {
+
+  $category_info = array();  // array to hold cat name and id
+
+  $postID = $queried_object->ID; //getting product ID
+  $catPath = get_the_category( $postID ); // getting all categories associated with product
+
+  // iterating through to find the 'type' category
+  foreach ($catPath as $category) {
+    if (get_the_category_by_ID($category->category_parent) == "Type") {
+      $category_info['productType'] = $category->name;
+      $category_info['productTypeID'] = $category->term_id; // getting category ID for get_term_link() function in markup
+    }
+  };
+
+  return $category_info;
+}
+
 
 
 // Check if single post has a logo path

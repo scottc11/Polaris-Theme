@@ -20,6 +20,11 @@ dark-blue:  rgb(24, 143, 192);
   margin-bottom: 15px;
 }
 
+/*!responsive!*/
+.sidebar-container {
+  margin-top: 51px; /*so sidebar is inline with the products*/
+}
+
 .widget-container {
   width: 100%;
   margin-top: 2px;

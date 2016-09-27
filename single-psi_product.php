@@ -18,8 +18,18 @@ Template Name: Product Page
 
 			<div class="row">
 
+				<?php
+					$category_info = PSI_get_cat_link( $wp_query->get_queried_object() );
+				?>
+
 				<div class="col-xs-12">
-					<h3 class="color-accent-baby-blue">Products / strapping Machines / Dynaric DF30</h3>
+					<h3 class="color-accent-baby-blue">
+						<a href="<?php echo get_page_by_path( 'products' )->guid; ?>">Products</a>
+						 /
+						<a href="<?php echo get_term_link($category_info['productTypeID']); ?>"><?php echo $category_info['productType']; ?></a>
+						 /
+						<?php echo $wp_query->get_queried_object()->post_title; ?>
+					</h3>
 					<hr>
 				</div>
 

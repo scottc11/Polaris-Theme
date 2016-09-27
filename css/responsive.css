@@ -17,6 +17,10 @@
     display: none;
   }
 
+  .sidebar-container {
+    margin-top: 20px;
+  }
+
   #menu-hamburger {
     display: block;
   }
@@ -33,6 +37,8 @@
   #menu-hamburger {
     font-size: 1.5em;
   }
+
+
 
   .product-thumbnail {
     height: 50px;

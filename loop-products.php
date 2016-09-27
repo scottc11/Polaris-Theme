@@ -4,7 +4,7 @@
 <?php if ( $productsQuery->have_posts() ) : while ( $productsQuery->have_posts() ) : $productsQuery->the_post(); ?>
 
 
-<div class="col-xs-6 col-sm-4">
+<div class="col-xs-6 col-md-4">
   <div class="product-summary-container">
     <div class="product-summary-img">
       <!-- product thumbnail -->
