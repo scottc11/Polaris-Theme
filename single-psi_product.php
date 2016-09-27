@@ -128,7 +128,8 @@ Template Name: Product Page
 							<?php $specs = get_post_custom($post->ID); ?>
 							<?php foreach ($specs as $key => $value) {
 								if ( PSI_filter_custom_fields($key) == false ) { ?>
-									<li><span class="bold-text"><?php echo $key ?>:</span> <?php echo $value[0] ?></li>
+									<li><span class="bold-text color-accent-black"><?php echo $key ?>:</span> <?php echo $value[0] ?></li>
+									<hr class="specs-hr">
 								<?php }
 							} ?>
 						</ul>

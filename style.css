@@ -80,6 +80,12 @@ hr {
   margin: 0;
 }
 
+.specs-hr {
+  border-color: black;
+  border-width: 1px;
+  margin: 5px 0 5px 0;
+}
+
 .my-inline-block {
   display: inline-block;
 }
@@ -94,6 +100,10 @@ hr {
   color: red;
 }
 
+.color-accent-black {
+  color: black;
+}
+
 .color-accent-dark-blue {
   color: #0b6c90;
 }
@@ -105,7 +115,6 @@ hr {
 .color-accent-white {
   color: white;
 }
-
 
 
 .under-line-blue {
@@ -160,12 +169,6 @@ hr {
   float: right;
 }
 
-
-#under-construction {
-  background-color: yellow;
-  text-align: center;
-
-}
 
 
 
@@ -476,9 +479,18 @@ hr {
   background-color: #C4E0EB;
 }
 
+#features-content ul {
+  padding-left: 0;
+}
+
 #specs-content {
   background-color: #00aeef;
   color: white;
+}
+
+#specs-content ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .tab-box {
