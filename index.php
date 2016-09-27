@@ -27,8 +27,9 @@
 						</div>
 
 						<div class="col-xs-12">
-							<h5>Polaris Systems Inc. was founded in 2009, the founder and president Mr. Don Campbell has over 25 years experience in the industrial packaging industry. Based upon five cornerstones (principles) Polaris Systems Inc. will strive to provide our customers with <span>quality products</span>, <span>on time service</span> and <span>innovative packaging solutions</span>.</h5>
+							<p class="font-size-20em">Based upon five cornerstones (principles) Polaris Systems Inc. will strive to provide our customers with <span class="color-accent-baby-blue">quality products</span class="color-accent-baby-blue">, <span class="color-accent-baby-blue">on time service</span class="color-accent-baby-blue"> and <span class="color-accent-baby-blue">innovative packaging solutions</span class="color-accent-baby-blue">.</p>
 						</div>
+
 
 
 					</div>
