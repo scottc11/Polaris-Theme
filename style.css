@@ -518,6 +518,12 @@ hr {
   text-align: center;
 }
 
+.product-page-button a h3 {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
 /*--------------------------------------*/
 /*        FOOTER                        */
 /*--------------------------------------*/

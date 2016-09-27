@@ -139,7 +139,9 @@ Template Name: Product Page
 						<div class="col-xs-6">
 							<a href="#">
 								<div id="buy-now" class="product-page-button">
-									<h3 class="color-accent-white vertical-center">Email Us!</h3>
+									<a href="<?php echo get_page_by_path( 'contact' )->guid; ?>">
+										<h3 class="color-accent-white" >Email Us!</h3>
+									</a>
 								</div>
 							</a>
 						</div>
@@ -147,7 +149,9 @@ Template Name: Product Page
 						<div class="col-xs-6">
 							<a href="#">
 								<div id="watch-video" class="product-page-button">
-									<h3 class="color-accent-white vertical-center">Watch Video</h3>
+									<a class="video-link" href="<?php echo get_post_meta( $post->ID, 'video_url', true); ?>">
+										<h3 class="color-accent-white">Watch Video</h3>
+									</a>
 								</div>
 							</a>
 						</div>

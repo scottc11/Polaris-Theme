@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/frameworks/boilerplate.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/frameworks/bootstrap-3.3.7/css/bootstrap.min.css">
 
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/frameworks/magnific-popup/magnific-popup.css">
+
 		<!-- Link all external fonts here -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900&subset=cyrillic,greek,vietnamese" rel="stylesheet">
 
@@ -26,7 +28,7 @@
 		<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"> -->
 
 		<!-- Link additional CSS files here -->
-		
+
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animations.css">
 

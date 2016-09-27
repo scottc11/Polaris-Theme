@@ -73,8 +73,9 @@ function customfield_limit_increase( $limit ) {
 }
 
 
+// this function is used on the single product page
+// and makes the 'web trail' dynamic
 function PSI_get_cat_link($queried_object) {
-
   $category_info = array();  // array to hold cat name and id
 
   $postID = $queried_object->ID; //getting product ID
