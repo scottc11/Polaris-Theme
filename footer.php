@@ -63,6 +63,9 @@
 		<!-- Masonry core JS file -->
 		<script src="<?php echo get_template_directory_uri(); ?>/frameworks/masonry/masonry.pkgd.min.js"></script>
 
+		<!-- ImagesLoaded  -->
+		<script src="<?php echo get_template_directory_uri(); ?>/frameworks/images-loaded/imagesloaded.pkgd.min.js"></script>
+
 		<!-- CUSTOM SCRIPTS -->
 		<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/maginific-popup.js"></script>

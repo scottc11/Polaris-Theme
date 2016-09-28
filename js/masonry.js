@@ -1,5 +1,8 @@
-$('.masonry-container').masonry({
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: '.grid-item'
+
+var $container = $('.masonry-container');
+$container.imagesLoaded( function () {
+  $container.masonry({
+    columnWidth: '.grid-item',
+    itemSelector: '.grid-item'
+  });
 });
