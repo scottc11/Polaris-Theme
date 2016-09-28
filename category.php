@@ -7,17 +7,6 @@
 
   <main id="" class="container">
 
-    <div class="row">
-      <div class="col-xs-12 col-sm-9 col-sm-offset-3">
-        <div class="underlined-header-container">
-          <h1><?php echo $wp_query->get_queried_object()->name ?></h1>
-          <hr class="underline-hr">
-        </div>
-      </div>
-    </div>
-
-
-
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <!--          SIDEBAR               -->
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -30,9 +19,18 @@
       <!--          PRODUCTS               -->
       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-      <section class="container col-xs-12 col-sm-9">
+      <section class="container col-xs-12 col-sm-8 col-md-9">
 
         <div class="row">
+          <div class="col-xs-12">
+            <div class="underlined-header-container">
+              <h1><?php echo $wp_query->get_queried_object()->name ?></h1>
+              <hr class="underline-hr">
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-container row">
 
           <?php
 

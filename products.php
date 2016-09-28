@@ -37,7 +37,7 @@ Template Name: Products Page
           </div>
         </div>
 
-        <div class="row">
+        <div class="masonry-container row">
 
           <!-- preparing the loop -->
           <?php

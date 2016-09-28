@@ -60,9 +60,13 @@
 		<!-- Magnific Popup core JS file -->
 		<script src="<?php echo get_template_directory_uri(); ?>/frameworks/magnific-popup/jquery.magnific-popup.min.js"></script>
 
+		<!-- Masonry core JS file -->
+		<script src="<?php echo get_template_directory_uri(); ?>/frameworks/masonry/masonry.pkgd.min.js"></script>
+
 		<!-- CUSTOM SCRIPTS -->
 		<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/maginific-popup.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/masonry.js"></script>
 
 
 

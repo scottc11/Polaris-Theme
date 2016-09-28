@@ -1,26 +1,12 @@
 <?php require 'global-vars.php'; ?>
 
+
+
 <!-- START OF LOOP --> <!-- query arguments set in products page -->
 <?php if ( $productsQuery->have_posts() ) : while ( $productsQuery->have_posts() ) : $productsQuery->the_post(); ?>
 
-<?php
-  $counter = 1;
 
-  if ($counter == 1) {
-    $counter += 1;
-  }
-
-  if ($counter == 2) {
-    $counter += 1;
-  }
-
-  if ($counter == 3) {
-    $counter = 1; // reset counter to 1
-  }
-?>
-
-
-<div class="col-xs-6 col-md-4">
+<div class="grid-item col-xs-6 col-md-4">
   <div class="product-summary-container">
     <div class="product-summary-img">
       <!-- product thumbnail -->
