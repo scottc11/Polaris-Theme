@@ -140,7 +140,8 @@ Template Name: Product Page
 						<div class="col-xs-6">
 							<a href="#">
 								<div id="buy-now" class="product-page-button">
-									<a href="<?php echo get_page_by_path( 'contact' )->guid; ?>">
+									<!-- href="<?php echo get_page_by_path( 'contact' )->guid; ?>" -->
+									<a href="http://www.polaris-systems.net/contact/">
 										<h3 class="color-accent-white" >Email Us!</h3>
 									</a>
 								</div>
