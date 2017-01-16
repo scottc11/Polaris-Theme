@@ -28,7 +28,7 @@ Template Name: Contact Page
 
         <div class="margin-top-20">
           <h5 class="margin-minimal">Give us a call at:</h5>
-          <h4 class="color-accent-baby-blue margin-minimal">(905) 757-5522</h4>
+          <h4 class="color-accent-baby-blue margin-minimal"><a href="tel:905-542-7577" class="color-accent-baby-blue">(905) 542-7577</a></h4>
         </div>
 
         <div class="margin-top-20">

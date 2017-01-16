@@ -23,8 +23,8 @@
 
 						<div class="footer-contact col-xs-12 col-sm-4">
 							<ul>
-								<li><span>Contact us now</span></li>
-								<li>905.542.7577</li>
+								<li><span>Contact Us Now</span></li>
+								<li><a href="tel:905-542-7577" class="color-accent-white">(905) 542-7577</a></li>
 								<li><a class="unstyled-link" href="http://www.polaris-systems.net/contact/">Email</a></li>
 							</ul>
 						</div>
